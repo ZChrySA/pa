@@ -26,6 +26,12 @@ PRODUCT_SOONG_NAMESPACES += \
 # Platform
 TARGET_BOARD_PLATFORM := sm6150
 
+# Input
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/sm6150-idp-snd-card_Button_Jack.kl:system/usr/keylayout/sm6150-idp-snd-card_Button_Jack.kl \
+    $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl \
+    $(LOCAL_PATH)/keylayout/uinput-goodix.kl:system/usr/keylayout/uinput-goodix.kl
+
 # QTI
 TARGET_COMMON_QTI_COMPONENTS += \
     audio \
