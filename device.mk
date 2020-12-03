@@ -80,6 +80,33 @@ PRODUCT_PACKAGES += \
     init.qti.dcvs.sh \
     init.target.rc
 
+# Audio
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml
+
+PRODUCT_PACKAGES += \
+    audio.a2dp.default \
+    audio.primary.trinket \
+    audio.usb.default \
+    liba2dpoffload \
+    libbatterylistener \
+    libcirrusspkrprot \
+    libcomprcapture \
+    libexthwplugin \
+    libhdmiedid \
+    libhfp \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libsndmonitor \
+    libspkrprot \
+    libtinycompress.vendor \
+    libvolumelistener
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/audio/mixer_paths_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_qrd.xml \
+    $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml
+
 # Camera
 TARGET_NEEDS_RAW10_BUFFER_FIX := true
 PRODUCT_COPY_FILES += \
