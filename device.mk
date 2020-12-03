@@ -158,6 +158,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.bluetooth.library_name=libbluetooth_qti.so \
     ro.vendor.bluetooth.wipower=false
 
+# Public Libraries
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+
 # QTI
 TARGET_COMMON_QTI_COMPONENTS += \
     audio \
