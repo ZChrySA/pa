@@ -14,14 +14,6 @@
 
 DEVICE_PATH := device/xiaomi/violet
 
-# A/B
-AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS := \
-    boot \
-    dtbo \
-    system \
-    vbmeta
-
 # AVB
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += \
@@ -105,11 +97,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Recovery
-BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USERIMAGES_USE_F2FS := true
-TARGET_NO_RECOVERY := true
 
 # VNDK
 BOARD_VNDK_VERSION := current
