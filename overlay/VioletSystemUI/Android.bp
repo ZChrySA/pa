@@ -15,5 +15,5 @@
 runtime_resource_overlay {
     name: "VioletSystemUI",
     sdk_version: "current",
-    system_ext_specific: true,
+    vendor_specific: true,
 }
