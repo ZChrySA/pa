@@ -476,7 +476,7 @@ vendor/lib/libcppf.so
 vendor/lib/librmp.so
 vendor/lib/mediadrm/libwvdrmengine.so
 
-# Widevine - L1 - DAVINCI
+# Widevine - DAVINCIGLOBAL
 vendor/lib64/liboemcrypto.so
 vendor/lib/liboemcrypto.so
 vendor/lib64/libwvhidl.so
