@@ -334,7 +334,7 @@ vendor/bin/init.qti.chg_policy.sh
 vendor/etc/charger_fstab.qti
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
-# CNE - from LA.UM.9.1.r1-06700-SMxxx0.0
+# CNE - CAF
 system_ext/framework/com.quicinc.cne.api-V1.1-java.jar
 system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar
 system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar
@@ -412,7 +412,7 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
-# ConfigStore - from LA.UM.9.1.r1-07300-SMxxx0.0
+# ConfigStore - CAF
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
@@ -482,7 +482,7 @@ vendor/lib/liboemcrypto.so
 vendor/lib64/libwvhidl.so
 vendor/lib/libwvhidl.so
 
-# DSP HAL Service - from LA.UM.9.1.r1-07300-SMxxx0.0
+# DSP HAL Service - CAF
 vendor/bin/dspservice
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
@@ -577,7 +577,7 @@ vendor/firmware/a615_zap.elf
 vendor/firmware/a615_zap.mdt
 vendor/firmware/a630_sqe.fw
 
-# Graphics (Adreno) - from LA.UM.9.1.r1-08600-SMxxx0.0
+# Graphics (Adreno) - CAF
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
@@ -615,13 +615,13 @@ vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libpvr.so
 
-# Graphics (DRM) - from LA.UM.9.1.r1-07300-SMxxx0.0
+# Graphics (DRM) - CAF
 vendor/lib64/libsdedrm.so
 
-# Graphics (HDR) - from LA.UM.9.1.r1-07300-SMxxx0.0
+# Graphics (HDR) - CAF
 vendor/lib64/libhdr_tm.so
 
-# Graphics (SDM) - from LA.UM.9.1.r1-07300-SMxxx0.0
+# Graphics (SDM) - CAF
 vendor/lib64/libdisp-aba.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libqseed3.so
@@ -632,7 +632,7 @@ vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
-# Graphics (Vulkan) - from LA.UM.9.1.r1-08600-SMxxx0.0
+# Graphics (Vulkan) - CAF
 vendor/lib64/hw/vulkan.adreno.so
 vendor/lib/hw/vulkan.adreno.so
 
@@ -664,7 +664,7 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/librice.so
 vendor/lib/libsmwrapper.so
 
-# Media - from LA.UM.9.1.r1-07300-SMxxx0.0
+# Media - CAF
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/vppservice.rc
 vendor/lib64/libAlacSwDec.so
@@ -755,7 +755,7 @@ vendor/lib64/vendor.display.postproc@1.0.so
 # Power-off charging daemon - DAVINCI
 bin/charger:bin/chargeonlymode
 
-# Qualcomm MSM Interface - from LA.UM.9.1.r1-06700-SMxxx0.0
+# Qualcomm MSM Interface - CAF
 system_ext/etc/permissions/qti_libpermissions.xml
 system_ext/etc/permissions/qti_permissions.xml
 vendor/bin/irsc_util
@@ -791,7 +791,7 @@ vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 
-# Radio - from LA.UM.9.1.r1-06700-SMxxx0.0
+# Radio - CAF
 -system_ext/app/DeviceInfo/DeviceInfo.apk
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 -system_ext/app/datastatusnotification/datastatusnotification.apk
@@ -886,7 +886,7 @@ system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 # Telephony - DAVINCI
 system_ext/framework/qti-telephony-common.jar
 
-# Radio - IMS - from LA.UM.9.1.r1-06700-SMxxx0.0
+# Radio - IMS - CAF
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml
 -system_ext/app/imssettings/imssettings.apk
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
@@ -993,7 +993,7 @@ vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.ssc.so
 
-# Sensors (init script) - from CAF
+# Sensors (init script) - CAF
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
 
@@ -1086,7 +1086,7 @@ vendor/etc/thermal-engine-studio.conf
 vendor/etc/thermal-engine-tgame.conf
 vendor/lib64/libthermalfeature.so
 
-# Thermal (init script) - from LA.UM.8.9.r1-07100-SM6xx.0
+# Thermal (init script) - CAF
 vendor/etc/init/init_thermal-engine.rc
 
 # Time - DAVINCI
