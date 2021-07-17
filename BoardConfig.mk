@@ -125,3 +125,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # VNDK
 BOARD_VNDK_VERSION := current
+
+# Inherit from the proprietary version
+include vendor/xiaomi/violet/BoardConfigVendor.mk
