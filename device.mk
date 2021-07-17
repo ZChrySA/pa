@@ -199,6 +199,11 @@ LOC_HIDL_VERSION = 4.0
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.systemhelper@1.0.vendor
 
+# Media
+PRODUCT_PACKAGES += \
+    libcodec2_vndk.vendor \
+    libcodec2_hidl@1.0.vendor
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 28
 
